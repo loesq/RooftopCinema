@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: #121521;
+}
+h1 {
+    font-family: "Josefin Sans";
+    color: white;
+
+}
+h2 {
+    font-family: "Josefin Sans";
+    color: white;
+
+}
+h3 {
+    font-family: "Josefin Sans";
+    color: white;
+
+}
+h4 {
+    font-family: "Josefin Sans";
+    color: white;
+}
+p {
+    font-family: 'Darker Grotesque';
+    color: #B2B2D3;
+}
+a {
+    text-decoration: none;
+    font-family: 'Darker Grotesque';
+    color: white;
+    font-size: 20px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.right-container {
+    margin-left: auto;
+    width: 1580px;
+}
+.container {
+    margin: auto;
+    width: 1242px;
+}
+.d-flex {
+    display: flex;
+}
+.d-grid {
+    display: grid;
+}
+.flex-sb {
+    justify-content: space-between;
+}
+.al-items-c {
+    align-items: center;
+}
+.header__list {
+    height: 140px;
+    width: 1150px;
+}
+.logo {
+    margin-right: 413px;
+}
+.header__l-part {
+    width: 740px;
+}
+.header__l-part {
+    list-style: none;
+}
+.main-menu__general {
+    height: 750px;
+    margin-bottom: 120px;
+}
+.main-menu__l-part {
+    width: 530px;
+    margin: 184px 0;
+}
+.main-menu__l-part h1 {
+    margin: 40px 0 0 0;
+    font-size: 60px;
+}
+.main-menu__l-part p {
+    font-size: 20px;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    gap: 10px;
+}
+.purple-btn {
+    background-color: #40467C;
+}
+.white-btn {
+    background: rgba(20, 25, 35, 0.01);
+    border: 2px solid #FFFFFF;
+}
+.main-menu__btn {
+    margin-top: 100px;
+    width: 410px;
+    height: 60px;
+    grid-template-columns: 176px 204px;
+}
+.main-menu__btn a {
+    font-size: 16px;
+}
+.film-experience__general {
+    background-color: #1B213A;
+    margin-bottom: 120px;
+}
+.film-experience__lp h2 {
+    font-size: 46px;
+}
+.film-experience__lp h4 {
+    font-size: 32px;
+}
+.film-experience__lp {
+    width: 606px;
+}
+.film-experience__blocks {
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-columns: repeat(2,2fr);
+}
+.video-png {
+    background: linear-gradient(0deg, rgba(20, 25, 35, 0.6) 31.25%, rgba(20, 25, 35, 0) 100%)
+}
+
+.arrows {
+    width: 145px;
+}
+.information-block {
+    grid-template-columns: 258px 50px 125px 131px;
+    grid-template-columns: repeat(1,2fr);
+}
+.information-block h4 {
+    font-size: 16px;
+}
+.locations__top-part h3 {
+    font-size: 48px;
+}
+.locations__pic {
+    width: 395px;
+    height: 463px;
+}
+.cost-color {
+    color: white;
+}
+
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: url('fonts/DarkerGrotesque-Medium.ttf');
+ 
+}
