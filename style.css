@@ -24,6 +24,8 @@ h4 {
 p {
     font-family: 'Darker Grotesque';
     color: #B2B2D3;
+    font-size: 19px;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -42,6 +44,14 @@ ul {
 .container {
     margin: auto;
     width: 1242px;
+}
+.customers-container {
+    margin-left: auto;
+    width: 1680px;
+}
+.left-container {
+    margin-right: auto;
+    width: 1580px;
 }
 .d-flex {
     display: flex;
@@ -80,9 +90,6 @@ ul {
     margin: 40px 0 0 0;
     font-size: 60px;
 }
-.main-menu__l-part p {
-    font-size: 20px;
-}
 .btn {
     display: flex;
     flex-direction: column;
@@ -106,6 +113,9 @@ ul {
 }
 .main-menu__btn a {
     font-size: 16px;
+}
+.under-h1-text {
+    font-size: 32px;
 }
 .film-experience__general {
     background-color: #1B213A;
@@ -145,8 +155,200 @@ ul {
     width: 395px;
     height: 463px;
 }
-.cost-color {
+.white-text {
     color: white;
+}
+.locations {
+    margin-bottom: 138px;
+}
+
+.booking-info__general {
+    height: 845px;
+}
+.booking-info {
+    background-color: #1B213A;
+}
+.booking-info__lp h3 {
+    font-size: 46px;
+}
+.title-text{
+    font-size: 32px;
+    color: white;
+}
+.booking-info__lp {
+    grid-template-columns: repeat(1,3fr);
+}
+.booking-info__blocks {
+    flex-direction: column;
+    gap: 20px;
+
+}
+.booking-info__open-block {
+    width: 580px;
+    height: 283px;
+    border: 2px solid #FFFFFF;
+    
+}
+.booking-info__close-block {
+    width: 580px;
+    height: 108px;
+    border: 2px solid #40467C;
+    
+}
+.booking-info__open-block p {
+    margin-left: 30px;
+}
+.open-blocks-top-part {
+    width: 550px;
+    margin-top: 30px;
+}
+.closed-blocks-top-part {
+    width: 520px;
+    margin: 30px;
+}
+
+.gallery {
+    margin-top: 120px;
+}
+.gallery__header-lp {
+    width: 600px;
+}
+.gallery__header-lp h3 {
+    font-size: 48px;
+}
+.gallery__lp-pic {
+    width: 600px;
+    height: 630px;
+}
+.gallery__rp-pic {
+    width: 290px;
+    height: 300px;
+}
+.gallery__rp-pics {
+    width: 620px;
+    height: 630px;
+    grid-template-columns: repeat(2,2fr);
+}
+
+.customers-reviews {
+    margin: 120px 0;
+}
+.customers-reviews h3 {
+    margin-left: 100px;
+    font-size: 48px;
+}
+.customers-reviews__blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.arrows-two {
+    width: 60px;
+}
+.arrow-two {
+    transform: rotate(90deg);
+}
+.customers-reviews__block {
+    background-color: #1B213A;
+    width: 510px;
+    height: 280px;
+}
+.customers-reviews__block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.title-text-two {
+    font-size: 28px;
+    color: white;
+}
+.customers-reviews__block-text {
+    width: 420px;
+    height: 200px;
+    margin: 40px 40px;
+}
+
+.drop-line {
+    margin-bottom: 70px;
+}
+.drop-line__lp h3 {
+    font-size: 48px;
+    margin-left: 80px;
+}
+.drop-line__lp {
+    width: 636px;
+    height: 640px;
+    background-color: #1B213A;
+}
+
+.drop-line__fields {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.costil-margin p {
+    padding: 16px 0;
+    padding-left: 20px;
+    
+}
+.drop-line__name-field {
+    width: 470px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+}
+.drop-line__email-field {
+    width: 470px;
+    height: 60px;
+    border: 2px solid #40467C;
+}
+.drop-line__question {
+    width: 470px;
+    height: 126px;
+    border: 2px solid #40467C;
+}
+.drop-line__accept-part {
+    width: 470px;
+}
+.confirm-button {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.drop-line__btn {
+    width: 220px;
+    height: 60px;
+}
+
+.footer p {
+    font-size: 22px;
+}
+.footer__top-general {
+    height: 200px;
+    grid-template-columns: 280px;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer__email-field {
+    width: 410px;
+    height: 72px;
+    border: 2px solid #40467C;
+}
+.footer__email-field p {
+    padding: 0 22px;
+    padding-left: 24px;
+
+}
+.footer__btn {
+    height: 66px;
+    width: 147px;
+}
+.footer__bottom {
+    background-color: #1B213A;
+}
+.footer__bot-general {
+    height: 127px;
+}
+.applications {
+    width: 200px;
 }
 
 
