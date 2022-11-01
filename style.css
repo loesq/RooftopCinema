@@ -262,6 +262,13 @@ ul {
     font-size: 28px;
     color: white;
 }
+
+input[type="text"] {
+    font-family: 'Darker Grotesque';
+    color: #B2B2D3;
+    font-size: 19px;
+    padding-left: 20px;
+}
 .customers-reviews__block-text {
     width: 420px;
     height: 200px;
