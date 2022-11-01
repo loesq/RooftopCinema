@@ -294,17 +294,20 @@ ul {
 .drop-line__name-field {
     width: 470px;
     height: 60px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #40467C;
+    background-color: #1B213A;
 }
 .drop-line__email-field {
     width: 470px;
     height: 60px;
     border: 2px solid #40467C;
+    background-color: #1B213A;
 }
-.drop-line__question {
+.drop-line__question-field {
     width: 470px;
     height: 126px;
     border: 2px solid #40467C;
+    background-color: #1B213A;
 }
 .drop-line__accept-part {
     width: 470px;
@@ -313,6 +316,7 @@ ul {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    background-color: #40467C;
 }
 .drop-line__btn {
     width: 220px;
@@ -331,11 +335,20 @@ ul {
     width: 410px;
     height: 72px;
     border: 2px solid #40467C;
+    background-color: #1B213A;
 }
 .footer__email-field p {
     padding: 0 22px;
     padding-left: 24px;
-
+}
+.typing-part {
+    width: 410px;
+    height: 70px;
+    border-left: 2px solid #40467C;
+    border-top: 2px solid #40467C;
+    border-bottom: 2px solid #40467C;
+    border-right: 0;
+    background-color: #1B213A;
 }
 .footer__btn {
     height: 66px;
